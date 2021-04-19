@@ -1,0 +1,16 @@
+h1 {
+    color: white;
+    background-color: black;
+}
+.blue {
+    color: rgb(0, 225, 255);
+}
+h2 {
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+}
+.contact {
+    background-color: rgb(123, 142, 247);
+    text-align: right;
+}
