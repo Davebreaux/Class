@@ -1,0 +1,22 @@
+* {
+    margin: 20px 5px;
+}
+
+#search {
+    color: teal;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    border-color: teal
+}
+#add {
+    border-radius: 50%;
+    color: white;
+    background-color: teal;
+}
+#create {
+    padding: 5px 10px;
+    background-color: rgb(77, 106, 238);
+    color: white;
+    box-shadow:  2px 2px black;
+}
