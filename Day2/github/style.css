@@ -1,0 +1,43 @@
+img {
+    width: 250px;
+}
+
+.container {
+    background-color: red;
+    display: flexbox;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    padding: 10px;
+    color: azure;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+}
+
+#firstRow {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+#secondRow {
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#thirdRow {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    text-align: center;
+}
