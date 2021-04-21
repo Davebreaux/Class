@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+p {
+    margin: 0px;
+}
+.card{
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.banner {
+    height: 50px;
+    background-color: cornflowerblue;
+    width: 500px;
+    position: relative;
+    top: 0px;
+}
+
+.user {
+    width: 75px;
+    position: absolute;
+    top: 25px;
+    margin-left: 20px;
+}
+
+.marker {
+    width: 10px;
+}
+
+.bottom {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.location {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.gear {
+    width: 10px;
+}
+
+.info {
+    margin: 10px 0px;
+}
+
+h1, .location, .info, .gear {
+    margin-left: 20px;
+}
