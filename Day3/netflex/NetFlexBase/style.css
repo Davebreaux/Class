@@ -7,3 +7,43 @@ body {
     background-color: black;
     padding: 20px;
 }
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    height: 80px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navright {
+    background-color: gray;
+    width: 200px;
+    height: 60px;
+}
+
+.navleft {
+    background-color: gray;
+    width: 500px;
+    height: 60px;
+}
+
+.title {
+    color: white;
+}
+.title h4 {
+    padding: 10px 0px;
+}
+
+.show img {
+    width: 240px;
+    object-fit: cover;
+}
+
+.show {
+    margin-right: 5px;
+}
