@@ -55,6 +55,7 @@ var result3 = betterThanAverage([6, 8, 3, 10, -2, 5, 9]);
 console.log(result3); // we expect back 4
 
 //fibonacci
+
 function fibonacciArray(n) {
     // the [0, 1] are the starting values of the array to calculate the rest from
     var fibArr = [0, 1];
@@ -65,4 +66,4 @@ function fibonacciArray(n) {
 }
     
 var result4 = fibonacciArray(10);
-console.log(result4);// we expect back [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+console.log(result4); // we expect back [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
