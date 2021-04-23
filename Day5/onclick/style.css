@@ -1,0 +1,20 @@
+button {
+    height: 40px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .box {
+    height: 40px;
+    width: 20px;
+}
