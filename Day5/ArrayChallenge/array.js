@@ -64,6 +64,7 @@ function fibonacciArray(n) {
     }
     return fibArr;
 }
-    
-var result4 = fibonacciArray(10);
-console.log(result4);
+var resultFIB = fibonacciArray(10);
+console.log(resultFIB)
+
+console.log('hello')
