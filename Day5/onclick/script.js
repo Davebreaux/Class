@@ -12,6 +12,8 @@ function subtractFrom() {
     updateNum()
 }
 
-function updateNum()
-    var content = "<h1>"+number+"</h1>";
+function updateNum() {
+
+    content = "<h1>"+number+"</h1>";
     document.getElementById("counter").innerHTML = content;
+}
