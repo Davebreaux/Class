@@ -8,8 +8,8 @@ function highPass(arr, cutoff) {
     }
     return filteredArr;
 }
-var result = highPass([6, 8, 3, 10, -2, 5, 9,], 5);
-console.log(result); // we expect back [6, 8, 10, 9]
+var res = highPass([6, 8, 3, 10, -2, 5, 9], 5);
+console.log(res); // we expect back [6, 8, 10, 9]
 
 
 
@@ -66,4 +66,4 @@ function fibonacciArray(n) {
 }
     
 var result4 = fibonacciArray(10);
-console.log(result4); // we expect back [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+console.log(result4);
