@@ -1,0 +1,69 @@
+.card {
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+
+
+.likeuser {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column2 .likeuser *, .column2 p {
+    padding: 0px 20px;
+}
+
+.right {
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.like {
+    height: 20px;
+    margin-left: 40px;
+    background-color: rgb(199, 185, 64);
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+}
+
+.column1 {
+    flex: 1;
+
+}
+
+.column1 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1 .card * {
+    margin-top: 10px;
+}
+
+.column2 {
+    flex: 2;
+    margin-left: 40px;
+
+}
+
+.profilepic {
+    width: 25%;
+}

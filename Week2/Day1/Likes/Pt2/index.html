@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="navbar">Network</h1>
+    <div class="main">
+        <div class="column1">
+            <div class="card">
+                <img src="icons/user-circle.png" alt="profilePic" class="profilepic">
+                <a href="#">Add profile pic</a>
+                <h1>James Doe</h1>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="card">
+                <div class="likeuser">
+                    <h1 class="left">Neil M</h1>
+                    <div class="right">
+                        <h1 id="neilM">0 like(s)</h1>
+                        <button class="like" onclick="addLike('neilM')">LIKE</button>
+                    </div>
+                </div>
+                <p>I just set up this new Discord bot. Let me know what you <a href="#">think</a></p>
+            </div>
+            <div class="card">
+                <div class="likeuser">
+                    <h1 class="left">Nichole K</h1>
+                    <div class="right">
+                        <h1 id="nicholeK">0 like(s)</h1>
+                        <button class="like" onclick="addLike('nicholeK')">LIKE</button>
+                    </div>
+                </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="card">
+                <div class="likeuser">
+                    <h1 class="left">Jim R</h1>
+                    <div class="right">
+                        <h1 id="jimR">0 like(s)</h1>
+                        <button class="like" onclick="addLike('jimR')">LIKE</button>
+                    </div>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.card {
+    width: 500px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.likeuser {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#like {
+    height: 20px;
+    margin-left: 40px;
+    background-color: rgb(199, 185, 64);
+}
+
