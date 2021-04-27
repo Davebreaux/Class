@@ -1,0 +1,102 @@
+* {
+    font-family: cursive;
+}
+
+#navbar {
+    height: 100px;
+    background-color: rgb(159, 197, 248);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+#navbar h1 {
+    font-size: 60px;
+}
+
+#locationbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+    border-bottom: 3px solid black;
+}
+
+#forecast {
+    margin: 0px 80px;
+    display: flex;
+}
+
+#cookies {
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    border: 2px solid black;
+    position: fixed;
+    top: 500px;
+    margin: 0px 100px 0px 96px;
+}
+
+#cookies img {
+    width: 75px;
+    height: 75px;
+}
+
+#accept {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(159, 197, 248);
+}
+
+#units {
+    height: 25px;
+    margin-left: 10px;
+}
+
+.cities {
+    display: flex;
+    list-style: none;
+}
+
+.cities li {
+    font-size: x-large;
+    margin: 0px 15px;
+}
+
+
+.unitselection {
+    display: flex;
+    align-items: center;
+}
+
+.day {
+    flex: 1;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin: 20px;
+}
+
+.day img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.temps {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
