@@ -1,6 +1,17 @@
-def print_hello_x_or_ten_times(x = 10):
-    for num in range(x):
-        print('Hello')
-
-#print_hello_x_or_ten_times()
-print_hello_x_or_ten_times(4)
+names2 = []
+x=0
+while x < 10:
+    temp = input('What is your name?')
+    for entry in names2:
+        if entry != temp:
+            continue
+        else:
+            print('name already given')
+            break
+    else:
+        names2.append(temp)
+        x += 1
+else:
+    print('It was nice to meet all of you.')
+    for y in names2:
+        print(y)
