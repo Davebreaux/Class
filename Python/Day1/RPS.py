@@ -4,8 +4,11 @@ import random #get random generator for computer choice.
 choices = ["rock", "paper", "scissors"]
 playerScore = 0
 computerScore = 0
+rounds = int(input('What score would you like to play to?'))
 
-while playerScore < 3 and computerScore < 3:
+
+
+while playerScore < rounds and computerScore < rounds:
     computerChoice = choices[random.randint(0,2)]
     playerChoice = input('rock, paper, or scisors?').lower()
 
@@ -16,7 +19,7 @@ while playerScore < 3 and computerScore < 3:
                 choiceCheck = False
                 break
         else:
-            playerChoice = input('Choose: rock, paper, or scissors')
+            playerChoice = input('Choose: rock, paper, or scissors').lower()
 
     print(f'Computer chose: {computerChoice}')
     print(f'Player Chose: {playerChoice}')

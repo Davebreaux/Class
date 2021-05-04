@@ -1,14 +1,7 @@
-import random #get random generator for computer choice.
-'''
-#variables to compare for win conditions
-choices = ["rock", "paper", "scissors"]
-computerChoice = ''
-playerChoice = input('rock, paper, or scisors?').lower()
+def length_and_value(l,v):
+    newList = []
+    while len(newList) < l:
+        newList.append(v)
+    return newList
 
-
-#Computer picks at random
-def compChoice():
-'''
-
-
-print(random(5))
+print(length_and_value(6,2))
