@@ -1,0 +1,3 @@
+studentNames = []
+
+print(len(studentNames))
