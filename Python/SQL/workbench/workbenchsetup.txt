@@ -1,0 +1,9 @@
+use twitter;
+
+
+insert into users(first_name, last_name, handle, birthday, created_at, updated_at) VALUES ('Joe', 'Blow', 'joeblow', '1985-05-05', now(), now())
+
+
+update users set birthday = '1986-05-05' where id = 6
+
+delete from users where id = 6

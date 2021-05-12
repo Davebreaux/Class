@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="main">
+        <h1>Welcome to The Great Number Game!</h1>
+        <h2>I am thinking of a number between 1 and 100. Take a guess</h2>
+        <div class="container {{color}}">
+            <h1>{{message}}</h1>
+        </div>
+        <form action="/guess" method="POST">
+            <label for="guess">Make a guess</label>
+            <input type="text" name="guess" id="guess">
+            <input type="submit" value="See if I'm psychic">
+        </form>
+        <form action="/reset">
+        <input type="submit" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
