@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% with messages = get_flashed_messages() %}    
+            {% if messages %}                            
+                {% for message in messages %}            
+                    <p>{{message}}</p>                   
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+    <h1>Welcome {{session['first_name']}}!</h1>
+    <h2>These are your recipes</h2>
+    <table>
+        <th>Name</th>
+        <th>Under 30 minutes</th>
+        <th>Actions</th>
+        {% for recipe in recipes %}
+        <tr>
+
+            <td>{{recipe.name}}</td>
+            <td>{{recipe.cook_time}}</td>
+            <td><a href="/instructions/{{recipe.id}}/view">View instructions</a> <a href="/recipe/{{recipe.id}}/edit">edit</a> <a href="/recipe/{{recipe.id}}/delete">delete</a></td>
+            
+        </tr>
+        
+        {%endfor%}
+    </table>
+
+    <a href="/new_recipe">Add a recipe!</a>
+    <a href="/logout">Log Out</a>
+    
+</body>
+</html>

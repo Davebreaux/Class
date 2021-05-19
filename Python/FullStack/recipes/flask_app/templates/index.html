@@ -42,5 +42,8 @@
 
     
     <a href="/logout">logout</a>
+    {% if 'email' in session %}
+    <a href="/dashboard">Dashsboard</a>
+    {%endif%}
 </body>
 </html>
